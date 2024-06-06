@@ -1,0 +1,27 @@
+ //Exercise 3
+ #include <stdio.h>
+
+int main() {
+//Name: Okonta Destiny 
+//Matric no: CMP2307643
+//D-code: D1010520
+//Department: Software Engineering 
+     // Define an array of size 5
+    int arr[5];
+      // Prompt the user to enter 5 strings
+    printf("Enter 5 strings:\n");
+    
+    // Insert 5 elements into the array
+    for(int i = 0; i < 5; i++) {
+        printf("Enter element %d: ", i + 1);
+        scanf("%d", &arr[i]);
+    }
+    
+    // Print the elements of the array
+    printf("\nElements of the array:\n");
+    for(int i = 0; i < 5; i++) {
+        printf("%d ", arr[i]);
+    }
+    
+    return 0;
+}
